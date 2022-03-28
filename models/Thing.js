@@ -15,10 +15,10 @@ module.exports = mongoose.model('Thing', thingSchema);
 const Pool = require('pg').Pool;
 
 const pool = new Pool({
-    user: "postgres",
-    host:"localhost",
-    database:"DBProjet",
-    password:"achille2001",
+    user: "npqvthisxioakn",
+    host:"ec2-18-215-96-22.compute-1.amazonaws.com",
+    database:"dda825ab0jjrog",
+    password:"de35b8f8463439c71326de2a7cc1dc16691ecbcaf3e4d13d0e3244f2e5ccbb5f",
     port:5432,
 });
 

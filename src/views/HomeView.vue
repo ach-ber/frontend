@@ -40,8 +40,8 @@ export default {
   },
 
   beforeMount() {
-    axios.get(this.$store.state.URLAPI+'/Recentavis').then(response => this.dataRecentavis = (response.data));
-    axios.get(this.$store.state.URLAPI+'/Bestavis').then(response => this.dataBestavis = (response.data));
+    axios.get('https://projetwebapi.herokuapp.com/api/Recentavis').then(response => this.dataRecentavis = (response.data));
+    axios.get('https://projetwebapi.herokuapp.com/api/Bestavis').then(response => this.dataBestavis = (response.data));
   },
 
 }

@@ -59,7 +59,7 @@ section {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  background-color: #f6f8fe;
+  background-color: red;
   padding-bottom: 40px;
 }
 section div {
